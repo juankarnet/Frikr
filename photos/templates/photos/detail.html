@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+    {% block title %} {{ photo.name }} {% endblock %}
+
+    {% block section %}
+        <h1>{{ photo.name }}</h1>
+        <img src="{{ photo.url }}" alt="{{ photo.name }}" width="600px">
+        <p>{{ photo.description}}</p>
+        <p><strong>Autor: {{ photo.owner.first_name }} {{ photo.owner.last_name }}</strong></p>
+
+        <h2>Comments</h2>
+        {% for comment in comments %}
+            <hr>
+            <h3>{{ comment.subject }}</h3>
+            <p>{{ comment.text_comment }}</p>
+        {% endfor %}
+    {% endblock %}
