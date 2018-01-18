@@ -147,7 +147,6 @@
         <option value="$PROJECT_DIR$/photos/templates/photos/new_photo.html" />
         <option value="$PROJECT_DIR$/photos/settings.py" />
         <option value="$PROJECT_DIR$/users/views.py" />
-        <option value="$PROJECT_DIR$/photos/templates/photos/photos_loop.html" />
         <option value="$PROJECT_DIR$/photos/templates/photos/home.html" />
         <option value="$PROJECT_DIR$/photos/templates/photos/photos_list.html" />
         <option value="$PROJECT_DIR$/photos/templates/photos/user_photos.html" />
@@ -169,6 +168,10 @@
         <option value="$PROJECT_DIR$/photos/serializers.py" />
         <option value="$PROJECT_DIR$/photos/templates/photos/detail.html" />
         <option value="$PROJECT_DIR$/photos/views.py" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/photos/templates/photos/photos_loop.html" />
+>>>>>>> development
         <option value="$PROJECT_DIR$/photos/models.py" />
       </list>
     </option>
@@ -726,6 +729,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/photos/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -736,6 +740,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> development
     <entry file="file://$PROJECT_DIR$/photos/templates/photos/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -765,6 +771,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

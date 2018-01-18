@@ -32,6 +32,9 @@ class Photo(models.Model):
         return self.name
 
 class Comment(models.Model):
+    """
+    Model in comments
+    """
     writer = models.ForeignKey(User)
     photo = models.ForeignKey(Photo)
     subject = models.CharField(max_length=150)
