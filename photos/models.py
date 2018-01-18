@@ -16,7 +16,9 @@ VISIBILITY = (
 )
 
 class Photo(models.Model):
-
+    """
+    Otros del equipo comentan estado de foto
+    """
     owner = models.ForeignKey(User)
     name = models.CharField(max_length=150)
     url = models.URLField()
